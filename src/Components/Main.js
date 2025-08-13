@@ -2,7 +2,7 @@
 import React from "react";
 import { FaSkype, FaLinkedinIn } from "react-icons/fa";
 import { HiChevronDown } from "react-icons/hi";
-import bgImage from "../assets/bg.webp";
+import bgImage from "../assets/bgi.jpg";
 
 const Main = () => {
   return (
