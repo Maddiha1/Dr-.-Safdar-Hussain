@@ -4,13 +4,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const menuItems = [
-    "Home",
-    "About",
-    "Educational & professional experience",
-    "Research",
-    "Projects",
-    "Publications",
-    "Contact and meet me",
+    { name: "Home", id: "home" },
+    { name: "About", id: "about" },
+    { name: "Educational & professional experience", id: "educational-professional-experience" },
+    { name: "Research", id: "research" },
+    { name: "Projects", id: "projects" },
+    { name: "Publications", id: "publications" },
+    { name: "Contact & meet me", id: "contact-me" }, // fixed id
   ];
 
   return (
@@ -22,10 +22,10 @@ const Navbar = () => {
             {menuItems.map((item, index) => (
               <a
                 key={index}
-                href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
+                href={`#${item.id}`}
                 className="hover:text-yellow-400 transition-colors duration-300"
               >
-                {item}
+                {item.name}
               </a>
             ))}
           </div>
@@ -70,10 +70,11 @@ const Navbar = () => {
           {menuItems.map((item, index) => (
             <a
               key={index}
-              href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
+              href={`#${item.id}`}
               className="block py-2 border-b border-gray-700 hover:text-yellow-400"
+              onClick={() => setIsOpen(false)} // close menu after click
             >
-              {item}
+              {item.name}
             </a>
           ))}
         </div>

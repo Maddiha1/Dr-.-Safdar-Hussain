@@ -3,7 +3,7 @@ import React from "react";
 const EducationExperience = () => {
   return (
     <section
-      id="educational-&-professional-experience"
+      id="educational-professional-experience"
       className="p-10 bg-white"
     >
       {/* Education */}

@@ -9,126 +9,465 @@ const Publications = () => {
           Publications
         </h2>
 
-        {/* Publications List */}
-       <div className="space-y-4 text-gray-800">
-  <ol className="list-decimal pl-6 space-y-2">
-    <li>
-      Guangju, W., Batool, F., Jabeen, M., Ali, M., Afzal, A., Hussain, S.* (2025).
-      Impact of Industry 4.0 & 5.0 Technologies on Circular Economy and Sustainable Performance using Hybrid PLS-SEM and ANN Approach.
-      <em> Human Behavior and Emerging Technologies</em>. doi: 10.115/hbe2/9920983. (IF: 4.3)
-    </li>
-    <li>
-      Jafar, R. M. S., Jabeen, M., Hussain, S., Niu, B., Sham, R., & Al-Adwan, A. S. (2025).
-      Cyber Shopping Beyond Boundaries: The Metaverse Revolution in e‐Commerce and Consumer Behavior.
-      <em> Human Behavior and Emerging Technologies</em>, 2025(1), 5559234. (IF: 4.3)
-    </li>
-    <li>
-      Jafar, R. M. S., Sun, Y., Niu, B., Hussain, S., Zhu, J., Gu, M., ... & Yang, Y. (2024).
-      Revealing the secrets of metaverse technology adoption for sustainable performance via dual-stage SEM-ANN analysis.
-      <em> International Journal of Human–Computer Interaction</em>, 1-18. (IF: 3.4)
-    </li>
-    <li>
-      Hussain, S., Shoukat, M. H., Elgammal, I., Khan, M. A., & Selem, K. M. (2024).
-      Potential effects of customer-brand identification and self-representation on Aliexpress advocacy: a comparative study.
-      <em> Global Knowledge, Memory and Communication</em>. (IF: 1.8)
-    </li>
-    <li>
-      Hussain, S., Huang, K., Ilyas, Z., & Niu, B. (2020).
-      Exploring the Novel Input Attributes Affecting eWOM.
-      <em> Frontiers in Psychology</em>, 11. (IF: 3.8)
-    </li>
-    <li>
-      Hussain, S., Song, X., & Niu, B. (2020).
-      Consumers' motivational involvement in eWOM for information adoption: The mediating role of organizational motives.
-      <em> Frontiers in Psychology</em>, 10, 3055. (IF: 3.8)
-    </li>
-    <li>
-      Hussain, S., Guangju, W., Jafar, R. M. S., Ilyas, Z., Mustafa, G., & Jianzhou, Y. (2018).
-      Consumers' online information adoption behavior: Motives and antecedents of electronic word of mouth communications.
-      <em> Computers in Human Behavior</em>, 80, 22-32. (IF: 9.9)
-    </li>
-    <li>
-      Hussain, S., Ahmed, W., Jafar, R. M. S., Rabnawaz, A., & Jianzhou, Y. (2017).
-      eWOM source credibility, perceived risk and food product customer's information adoption.
-      <em> Computers in Human Behavior</em>, 66, 96-102. (IF: 9.9)
-    </li>
-    <li>
-      Ali, M., Anjum, M. N., Shangguan, D., & Hussain, S. (2022).
-      Water, Energy, and Food Nexus in Pakistan: Parametric and Non-Parametric Analysis.
-      <em> Sustainability</em>, 14(21), 13784. (IF: 3.9)
-    </li>
-    <li>
-      Nazir, H., Shoukat, M. H., Elgammal, I., & Hussain, S. (2022).
-      Impact of servant leadership on employee life satisfaction through Islamic work ethics in the Islamic banking industry.
-      <em> Asian Journal of Business Ethics</em>, 1-21. (IF: 1.3)
-    </li>
-    <li>
-      Ilyas, Z., Shahed, S., & Hussain, S.* (2020).
-      An impact of perceived social support on old age well-being mediated by spirituality, self-esteem and ego integrity.
-      <em> Journal of Religion and Health</em>, 59(6), 2715-2732. (IF: 2.8)
-    </li>
-    <li>
-      Abbas, J., Hussain, I., Hussain, S., Akram, S., Shaheen, I., & Niu, B. (2019).
-      The impact of knowledge sharing and innovation on sustainable performance in Islamic banks: a mediation analysis through an SEM approach.
-      <em> Sustainability</em>, 11(15), 4049. (IF: 3.9)
-    </li>
-    <li>
-      Menhas, R., Mahmood, S., Tanchangya, P., Safdar, M. N., & Hussain, S. (2019).
-      Sustainable development under Belt and Road initiative: a case study of China-Pakistan economic corridor's socio-economic impact on Pakistan.
-      <em> Sustainability</em>, 11(21), 6143. (IF: 3.9)
-    </li>
-  </ol>
-</div>
-
-
-        {/* International/National Training */}
-        <div className="mt-12">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-900 border-b-2 border-yellow-500 inline-block">
-            International / National Training, Conferences, Workshops / Seminars
+        {/* ===== First Publication Card ===== */}
+        <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+            Impact of Industry 4.0 and 5.0 Technologies on Circular Economy and Sustainable Performance Using Hybrid PLS-SEM and ANN Approach
           </h3>
-         <ul className="list-disc pl-6 space-y-2 text-gray-800">
-  <li>International Training Course on New Technology of Quality and Safety in Tropical Agro-Products for Developing Countries, held from 08.08.2023 to 27.08.2023 at Chinese Academy of Tropical Agricultural Sciences, China (Attended)</li>
-  <li>Pakistan Governance Forum 2023: Ministry of Planning Development & Special Initiatives, 25-26 June 2023, Islamabad, Pakistan (Attended)</li>
-  <li>International Training Course on Productivity Gainsharing in Agribusiness Enterprises, Implementing Organization: National Productivity Organization (NPO), 13–17 March 2023, Islamabad, Pakistan (Attended)</li>
-  <li>1st International Conference on Philosophy of Social Sciences (ICPSS), 21-22 December 2022, PMAS- Arid Agriculture University Rawalpindi, Pakistan (Coordinator)</li>
-  <li>Second Stakeholder's seminar for Industry-Academia Linkages, 07th September 2022, PMAS- Arid Agriculture University Rawalpindi, Pakistan (Coordinator)</li>
-  <li>Fourth Wave of Newly Appointed Teacher Training Workshop, 06-07 September 2022, PMAS- Arid Agriculture University Rawalpindi, Pakistan (Organizer)</li>
-  <li>Two Days Training Workshop on Integrated Water Resources Management, 26-27 May 2022, PMAS- Arid Agriculture University Rawalpindi, Pakistan (Attended)</li>
-  <li>Social Safety Net & Sustainable Economic Development, African-Asian Rural Development Organization (AARDO), 16-20 May 2022, New Delhi, India (Attended)</li>
-  <li>Studentpreneurship to Entrepreneurship: Be your Boss, 14-15 March 2022, PMAS- Arid Agriculture University Rawalpindi, Pakistan (Coordinator)</li>
-  <li>Teacher Training Workshop for Newly Appointed Teacher, 16-22 February 2022, PMAS- Arid Agriculture University Rawalpindi, Pakistan (Organizer)</li>
-  <li>33rd EFFoST International Conference on Sustainable Food Systems - Performing by Connecting, 12-14 November 2019, Rotterdam, The Netherlands (Paper Presented)</li>
-  <li>The First IEEE International Conference on Computer Communication and the Internet (ICCCI- 2016), Oct. 13-15, 2016, Wuhan, China (Paper Presented)</li>
-  <li>International Conference on Computer Science and Artificial Intelligence (CSAI- 2016), Aug. 13-14, 2016, Guilin, Guangxi, China (Paper Presented)</li>
-  <li>Seven (07) days of training arranged titled "Training Workshop for Newly Appointed Teachers" PMAS- Arid Agriculture University Rawalpindi, February 16-22, 2022, Rawalpindi, Pakistan (Organizer)</li>
-  <li>Four (04) days training workshop titled "Research and Publishing Training Workshop" May 11-14-2019, Yangling, China (Attended)</li>
-  <li>One (01) day national policy seminar titled "Responsible Citizenship for Socio-economic Development" AHKNCRD, September 14, 2021, Islamabad, Pakistan (Attended)</li>
-  <li>One (01) day training session titled "05 Tips for Getting Published: Maximize your Chances to Get your Paper Accepted in Academic Journals" held on October 27, 2020, Higher Education Commission, Pakistan (Attended)</li>
-</ul>
 
+       <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+            Human Behavior and Emerging Technologies. 
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+            This study examined the relationship between Industry 4.0 and 5.0 technologies along with circular economy practices; their impact on energy production, economic performance, and environmental peace; and how these factors collectively affect sustainable firm performance. This pioneering study investigates the transformative impact of Industry 4.0 and 5.0 technologies on circular economy practices and sustainable performance in food chains. 
+          </p>
+
+          <a
+            href="https://onlinelibrary.wiley.com/doi/10.1155/hbe2/9920983"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
         </div>
 
-        {/* Book Chapters */}
-        <div className="mt-12">
-          <h3 className="text-2xl font-semibold mb-4 text-gray-900 border-b-2 border-yellow-500 inline-block">
-            Book Chapters
+        {/* ===== Second Publication Card ===== */}
+        <div className="bg-white p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+            Cyber Shopping Beyond Boundaries: The Metaverse Revolution in e-Commerce and Consumer Behavior
           </h3>
-          <ul className="list-disc pl-6 space-y-2 text-gray-800">
-            <li>
-              Hussain, S. (2020). The Future of Organic Farming in Asia. In{" "}
-              <em>Advances in Sustainable Agriculture</em>. Springer.
-            </li>
-            <li>
-              Hussain, S., & Li, B. (2019). Urbanization and Food Security in
-              South Asia. In <em>Urban Agriculture and Food Systems</em>. Routledge.
-            </li>
-            <li>
-              Hussain, S. (2018). Consumer Perceptions of Organic Labels in
-              China. In <em>Food Marketing in Emerging Economies</em>. IGI Global.
-            </li>
-            {/* Add all other book chapters here */}
-          </ul>
+
+        <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+            Human Behavior and Emerging Technologies. 
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+            The metaverse is swiftly flattering an important player in the e-commerce domain. It provides innumerable opportunities and indicates a revolutionary paradigm shift in e-commerce. Online businesses can now create virtual storefronts that enable immersive, lifelike product exploration within the metaverse, in contrast to traditional brick-and-mortar stores that cater to local customers. Current research offers a novel conceptual framework based on theories of interactive media effects and the stimulus–organism–response paradigm to understand consumer purchase intentions in the metaverse. 
+          </p>
+
+          <a
+            href="https://onlinelibrary.wiley.com/doi/10.1155/hbe2/5559234"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
         </div>
+
+         {/* ===== Third Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+            Revealing the Secrets of Metaverse Technology Adoption for Sustainable Performance via Dual-Stage SEM-ANN Analysis
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+            Human Behavior and Emerging Technologies. 
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+           The growing ubiquity of the metaverse among small and medium-sized enterprises (SMEs) offers a game-changing chance for creative business plans and improved communication. This adoption reduces the consumption of physical resources and promotes an environmentally responsible business model in besides increasing operational efficiency. In accordance with the Sustainable Development Goals (SDGs) of the UNDP, our study attempts to clarify how the metaverse might improve the sustainable performance of SMEs.
+         </p>
+          <a
+            href="https://www.tandfonline.com/doi/full/10.1080/10447318.2024.2407686"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+        {/* ===== Fourth Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+            ASSESSING TECHNICAL EFFICIENCY AND RESOURCE UTILIZATION IN DRYLAND GROUNDNUT FARMING. 
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+           A CASE STUDY OF TEHSIL CHAKWAL.
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+           This research examines dryland agriculture's technical efficiency among groundnut farmers in Chakwal Tehsil. Groundnut cultivation is crucial for food security in arid regions. The study analyzes current technical efficiency and ways to optimize resource use. Results show many farmers can increase output by 51% with better input combinations. Technical efficiency scores range from 2% to 99%, indicating diverse practices. Tailored approaches like extension services and plot demos are essential for improvement. The study relates findings to sustainable agriculture and rural development. Enhanced technical efficiency benefits farms, the environment, and the economy.
+</p>
+          <a
+            href="https://www.gerjournal.com/article/assessing-technical-efficiency-and-resource-utilization-in-dryland-groundnut-farming-a-case-study-of-tehsil-chakwal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+              {/* ===== Fifth Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+           Water, Energy, and Food Nexus in Pakistan: Parametric and Non-Parametric Analysis 
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+           Parametric and Non-Parametric Analysis 
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+          Analyzing the efficiency of the water, energy, and food (WEF) nexus is critical for effective governance strategies. Therefore, three-stage data envelopment analysis (DEA) was used to measure the efficiency level of WEF in the 36 districts of Punjab, Pakistan, for the period from 2015 to 2021. Furthermore, the stochastic frontier was used to analyze the effect of external environmental factors on these efficiency scores of the WEF nexus. The results of the DEA showed that the number of frontier efficiency districts decreased, and most districts experienced rank change over time. Overall, the performance of 50% of the districts declined over time.
+</p>
+          <a
+            href="https://www.mdpi.com/2071-1050/14/21/13784"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+         {/* ===== Sixth Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+           Impact of servant leadership on employee life satisfaction through Islamic work ethics in the Islamic banking industry
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+           Islamic work ethics in the Islamic banking industry
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+        The current study proposes a novel conceptual model in which Islamic work ethics has a mediating role in the relationship between servant leadership and employees’ life satisfaction within Pakistan’s banking sector. The model draws on the theory of leader-member exchange (LMX). Data from a sample of 240 were evaluated using structural equation modeling using SmartPLS 3.2.7 software. The findings indicate that servant leadership significantly impacts employees’ life satisfaction. 
+         </p>
+          <a
+            href="https://link.springer.com/article/10.1007/s13520-022-00144-3"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+      
+{/* ===== Seven Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+          The Role of Social Media Advertising Communities in Shaping Purchase Intention
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Journal of Business Research
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+         A Multi Mediations Perspectives
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+        Social networking sites (SNS) are a growing marketing tool used in advertisement and marketing activities. Companies have invested a lot in the fields of social media advertising through SNS. Yet, the challenge companies face is how they can efficiently advertise their social media advertisements and increase customer purchase intention. This study aims to explore and verify key interaction elements within SNS communities that are associated with purchase intention. 
+          </p>
+          <a
+            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3913053"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+        
+{/* ===== eight Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+        An Impact of Perceived Social Support on Old Age Well-Being Mediated by Spirituality, Self-esteem and Ego Integrity
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Journal of Religion and Health
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+         Self-esteem and Ego Integrity
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+       Good in physical health is a positive outcome in later life associated with well-being. The purpose of this study was to address the factors involved in friends, family and someone’s special support that affect physical well-being and psychological well-being, mediated by the spirituality, self-esteem and ego integrity among older adults. Respondents (410) were selected through questionnaire sampling technique from the age of 61 years and above from the four different divisions of Punjab province of Pakistan.
+         </p>
+          <a
+            href="https://link.springer.com/article/10.1007/s10943-019-00969-6"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+{/* ===== nine Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+       Sustainable Development under Belt and Road Initiative: A Case Study of China-Pakistan Economic Corridor’s Socio-Economic Impact on Pakistan
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+         Socio-Economic Impact on Pakistan
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+      The restoration of the ancient Silk Road intends to reconnect China with Africa, the Middle East, and Europe through a railway network, airports, roads, seaports, and an optical fiber system. The Belt and Road Initiative (BRI) has three components. One Belt, One Road (OBOR) is based upon two parts of the BRI; the maritime Silk Road and the Silk Road economic belt. OBOR is based upon six economic corridors. The China-Pakistan Economic Corridor (CPEC) is the smartest corridor under OBOR, which passes only through Pakistan, and after completion, will provide a safe and cheap route for China to import oil and energy.
+          </p>
+          <a
+            href="https://www.mdpi.com/2071-1050/11/21/6143"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+       
+
+{/* ===== ten Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+     The Impact of Knowledge Sharing and Innovation on Sustainable Performance in Islamic Banks: A Mediation Analysis through a SEM Approach.
+          </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+       A Mediation Analysis through a SEM Approach
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+     This research is among the very few studies seeking a focalized examination on the relationship between knowledge sharing within a firm and organizational innovation. This specific study establishes that the knowledge sharing and innovation processes in Islamic banks are integral parts of the survival and progress of business organizations. Knowledge sharing and creativity are essential elements in the development of innovative strategies, but few studies have sought to investigate this relationship. This study proposes a framework with five hypotheses, which predicts the influences of knowledge sharing and organizational innovation on the Pakistani banking sector.
+          </p>
+          <a
+            href="https://www.mdpi.com/2071-1050/11/15/4049"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+       
+       {/* ===== eleven Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+     A Comprehensive Evaluation: Water Cycle Algorithm and Its Applications
+     </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Conference paper
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+      Water Cycle Algorithm
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+     Recently nature-inspired optimization algorithms have become a popular choice for solving complex optimization problems. Water Cycle Algorithm (WCA) is a nature-inspired new optimization technique, which has successfully applied to solve the constrained optimization and engineering design problems. As a result, the WCA studies have extended significantly in the last 5 years. This review paper provides the comprehensive assessment of WCA in the area of modifications, hybridizations, and applications.
+          </p>
+          <a
+            href="https://link.springer.com/chapter/10.1007/978-981-13-2829-9_33"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+
+{/* ===== 12 Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+  Supply-side Vs Demand-side Factors Facing Rural Householdsâ€™ Accessibility to Microcredit in Pakistan
+     </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+   Accessibility to Microcredit in Pakistan
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+    Agreed on the current attractiveness of microcredit schemes as a means of poverty alleviation, their accessibility to the poor households is of obvious concern. This research article examines the factors influencing the accessibility of microcredit by rural households in Pakistan. An empirical analysis utilizes logit model, with empirical data collected through interviewing 600 households, including both non-borrower and borrower households, a survey conducted between January 2017 and March 2017 in Punjab Province of Pakistan. A total of 13 household-level factors are defined as the determinant of householdsâ€™ access to microcredit, including household size, income, education level and others.
+         </p>
+          <a
+            href="https://dpi-journals.com/index.php/dtcse/article/view/20072"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+{/* ===== 13 Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+ Consumers' online information adoption behavior: Motives and antecedents of electronic word of mouth communications.
+     </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+  electronic word of mouth communications
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+   Electronic word of mouth influences the consumer buying behavior through the online exchange of customer opinions and experiences about commodities using social networking sites. Reviews or comments posted on the Internet by consumers and experts are based on their personal experiences and the evaluation and expert analysis of a product. The current study explains an overview of key elements of eWOM communication antecedents, addresses eWOM motives to analyze food products purchasing factors associated with consumer engagement. 
+          </p>
+          <a
+            href="https://www.sciencedirect.com/science/article/abs/pii/S0747563217305459?via%3Dihub"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+        {/* ===== 14 Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+ An Impact of Consumer’s Internet Information Adoption Through Electronic Word of Mouth Communication.
+     </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+  electronic word of mouth communications
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+   This study proposed electronic Word Of Mouth (eWOM) conceptual framework for food products information adoption on the internet. Literature review reveals some streams that affect in eWOM involvement such as reviews, reviewers, websites, online opinion seeking, source credibility and their effects on the process of decision-making in the food industry. The results revealed that there was positive influence of reading some reviews because of product popularity, consistency, regency, usefulness rating of reviewers, and website’s reliability before information adoption on the internet.
+         </p>
+          <a
+            href="https://www.worldscientific.com/doi/abs/10.1142/9789813220294_0097"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+{/* ===== 15 Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+ eWOM source credibility, perceived risk and food product customer's information adoption
+     </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Research Article
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+ Computers in Human Behavior
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+  This study examined the relations between source credibility of eWOM (electronic word of mouth), perceived risk and food products customer's information adoption mediated by argument quality and information usefulness. eWOM has been commonly used to refer the customers during decision-making process for food commodities. Based on this study, we used Elaboration Likelihood Model of information adoption presented by Sussman and Siegal (2003) to check the willingness to buy.
+         </p>
+          <a
+            href="https://www.sciencedirect.com/science/article/abs/pii/S0747563216306616?via%3Dihub"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+
+{/* ===== 16 Publication Card ===== */}
+        <div className="bg-white  mt-8 p-6 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold mb-2 text-gray-900">
+ Electronic word of mouth communications and consumer's information adoption on the Internet.
+     </h3>
+
+          <p className="text-gray-600 mb-1 flex items-center">
+            <span className="mr-1">📄</span> Conference Paper
+          </p>
+
+          <p className="text-gray-700 italic mb-4">
+ Information adoption on the Internet
+          </p>
+
+          <h4 className="font-bold text-lg mb-2">Abstract</h4>
+          <p className="text-gray-800 mb-4">
+  Increasing consumer motivation to pursue online reviews and information has recently become a potential area of study. Perusing the literature reviews, it is fairly evident that disseminating information largely depends on the innovativeness and the interpretative caliber of writers. Individuals that are involved in electronic word of mouth communication may have high ambitions to realize the needs and requirements of the online community.
+         </p>
+          <a
+            href="https://ieeexplore.ieee.org/document/7778972"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 font-semibold hover:underline"
+          >
+            ✔ Continue Reading
+          </a>
+        </div>
+
+
+
+
+
       </div>
     </section>
   );
