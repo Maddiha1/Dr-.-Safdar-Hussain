@@ -5,14 +5,14 @@ const ContactMe = () => {
   return (
     <section
       id="contact-me"
-      className="bg-black text-gray-300 py-16 relative scroll-mt-20"
+      className="bg-indigo-950 text-gray-300 py-16 relative scroll-mt-20"
     >
       {/* Main content */}
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between px-6">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start justify-between px-6">
         {/* Left side: Icon + text */}
         <div className="flex items-start gap-6">
-          <FaEnvelope className="text-white text-5xl flex-shrink-0" />
-          <p className="max-w-md leading-relaxed">
+          <FaEnvelope className="text-white text-6xl flex-shrink-0" />
+          <p className="max-w-lg leading-relaxed text-gray-400">
             I would be happy to talk to you if you need my assistance in your
             research or whether you need technical support for your
             organization.
@@ -28,19 +28,19 @@ const ContactMe = () => {
       </div>
 
       {/* Footer */}
-      <div className="mt-16 text-center relative">
+      <div className="mt-20 text-center relative">
         {/* Up Arrow Button */}
         <a
           href="#home"
-          className="bg-gray-700 hover:bg-gray-600 text-white w-12 h-12 rounded-full flex items-center justify-center mx-auto cursor-pointer"
+          className="bg-gray-700 hover:bg-gray-600 text-white w-14 h-14 rounded-full flex items-center justify-center mx-auto cursor-pointer shadow-lg"
         >
-          <FaChevronUp />
+          <FaChevronUp className="text-xl" />
         </a>
 
         {/* Social Icons */}
         <div className="mt-6 flex justify-center gap-6 text-gray-400 text-3xl">
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/dr-safdar-hussain-professor"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ const ContactMe = () => {
         {/* Footer Text */}
         <p className="text-sm text-gray-500 mt-4">
           © Copyright {new Date().getFullYear()} • Crafted by{" "}
-          <a href="#" className="text-teal-500 hover:underline">
+          <a href="#" className="text-gray-400 hover:text-white">
             Maddiha Naeem
           </a>
         </p>

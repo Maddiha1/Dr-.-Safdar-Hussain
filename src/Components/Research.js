@@ -4,18 +4,18 @@ import { BookOpen, Link2, FileText, BarChart3 } from "lucide-react"; // lucide-r
 
 const Research = () => {
   return (
-    <section className="bg-gray-900 text-white py-16 px-6" id="research">
+    <section className="bg-gray-200  text-indigo-900 text-white py-16 px-6" id="research">
       <div className="max-w-5xl mx-auto">
         {/* Title */}
-        <h2 className="text-3xl font-bold mb-8 border-l-4 border-yellow-500 pl-4">
+        <h2 className="text-3xl text-indigo-800 font-bold mb-8 border-l-4 border-yellow-500 pl-4">
           Research
         </h2>
 
         {/* Research Summary */}
-        <h3 className="text-2xl font-bold mb-6 border-b-2 border-yellow-500 inline-block">
+        <h3 className="text-2xl text-indigo-800 font-bold mb-6 border-b-2 border-yellow-500 inline-block">
           Research Summary
         </h3>
-        <p className="text-lg text-gray-300 mb-12 leading-relaxed">
+        <p className="text-lg text-indigo-800 text-gray-300 mb-12 leading-relaxed">
           Recent trends in economics research emphasize the integration of 
           data-driven approaches, advanced econometric models, and interdisciplinary 
           methods to address pressing social and economic challenges. Much of our 
@@ -38,60 +38,63 @@ const Research = () => {
             "Innovation in Financial Processes & Dividend Policy",
           ].map((topic, idx) => (
             <div
-              key={idx}
-              className="bg-gray-800 text-lg font-semibold tracking-wide uppercase p-4 rounded-lg shadow-md hover:bg-gray-700 transition"
-            >
-              {topic}
-            </div>
+  key={idx}
+  className="bg-gray-300 text-lg font-semibold tracking-wide uppercase p-4 rounded-lg shadow-md text-indigo-800 hover:bg-indigo-900 hover:text-white transition"
+>
+  {topic}
+</div>
+
           ))}
         </div>
 
         {/* Profiles & Publications */}
         <div className="mt-16">
-          <h3 className="text-2xl font-semibold mb-6 text-yellow-400 border-b border-gray-700 pb-2">
+          <h3 className="text-2xl font-bold mb-6 text-indigo-800 border-b border-indigo-500 pb-2">
             Profiles & Publications
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-            <a
-              href="https://scholar.google.com/citations?user=rp4iUA0AAAAJ&hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-4 bg-gray-800 p-4 rounded-xl shadow-md hover:bg-gray-700 transition"
-            >
-              <BookOpen className="text-yellow-400 w-8 h-8" />
-              <span className="text-lg font-medium">Google Scholar</span>
-            </a>
+     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto mt-20 justify-items-center">
+  <a
+    href="https://scholar.google.com/citations?user=rp4iUA0AAAAJ&hl=en"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-4 bg-gray-300 p-4 w-64 rounded-xl shadow-md text-indigo-900 hover:bg-indigo-900 hover:text-white transition"
+  >
+    <BookOpen className="w-8 h-8" />
+    <span className="text-lg font-medium">Google Scholar</span>
+  </a>
 
-            <a
-              href="https://loop.frontiersin.org/people/636408/overview"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-4 bg-gray-800 p-4 rounded-xl shadow-md hover:bg-gray-700 transition"
-            >
-              <Link2 className="text-yellow-400 w-8 h-8" />
-              <span className="text-lg font-medium">Loop</span>
-            </a>
+  <a
+    href="https://loop.frontiersin.org/people/636408/overview"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-4 bg-gray-300 p-4 w-64 rounded-xl shadow-md text-indigo-900 hover:bg-indigo-900 hover:text-white transition"
+  >
+    <Link2 className="w-8 h-8" />
+    <span className="text-lg font-medium">Loop</span>
+  </a>
 
-            <a
-              href="https://www.researchgate.net/profile/Safdar-Hussain-2"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-4 bg-gray-800 p-4 rounded-xl shadow-md hover:bg-gray-700 transition"
-            >
-              <FileText className="text-yellow-400 w-8 h-8" />
-              <span className="text-lg font-medium">ResearchGate</span>
-            </a>
+  <a
+    href="https://www.researchgate.net/profile/Safdar-Hussain-2"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-4 bg-gray-300 p-4 w-64 rounded-xl shadow-md text-indigo-900 hover:bg-indigo-900 hover:text-white transition"
+  >
+    <FileText className="w-8 h-8" />
+    <span className="text-lg font-medium">ResearchGate</span>
+  </a>
 
-            <a
-              href="https://www.scopus.com/authid/detail.uri?authorId=57210357557"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-4 bg-gray-800 p-4 rounded-xl shadow-md hover:bg-gray-700 transition"
-            >
-              <BarChart3 className="text-yellow-400 w-8 h-8" />
-              <span className="text-lg font-medium">Scopus ID</span>
-            </a>
-          </div>
+  <a
+    href="https://www.scopus.com/authid/detail.uri?authorId=57210357557"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center space-x-4 bg-gray-300 p-4 w-64 rounded-xl shadow-md text-indigo-900 hover:bg-indigo-900 hover:text-white transition"
+  >
+    <BarChart3 className="w-8 h-8" />
+    <span className="text-lg font-medium">Scopus ID</span>
+  </a>
+</div>
+
+
         </div>
       </div>
     </section>

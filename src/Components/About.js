@@ -1,17 +1,17 @@
 // About.jsx
 import React from "react";
-//import profileImg from "../assets/profile.webp"; // Replace with your image file
+import profileImg from "../assets/profile.jpg"; // Replace with your image file
 
 const About = () => {
   return (
-    <section id="about" className="bg-gray-900 text-white py-12 px-6 md:px-20">
+    <section id="about" className="bg-gray-200 text-indigo-900 py-12 px-6 md:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Left Side Image */}
         <div className="flex justify-center">
           <img
-           // src={profileImg}
+           src={profileImg}
             alt="Dr. Safdar Hussain"
-            className="rounded-lg shadow-lg w-full md:w-auto"
+            className=" shadow-lg w-full h-[60%] ml-20 -mr-10 md:w-auto"
           />
         </div>
 
@@ -19,29 +19,40 @@ const About = () => {
         <div className="md:col-span-2 space-y-4">
           <h2 className="text-3xl font-bold">About Me</h2>
           <p>
-          I am an Assistant Professor and Research Coordinator at 
-          PMAS-Arid Agriculture University,Rawalpindi, with 
-          expertise in Agricultural Economics, Marketing, and 
-          Trade. I hold a Ph.D.in Agricultural Economics and Management
-          from Fujian Agriculture and Forestry University, China, 
-         and a Post-Doctorate in Management Sciences from Shenzhen University, China.
+         My Ph.D. research focused on <span className="font-bold text-indigo-800">Agricultural Economics and Management, </span>
+         with a particular emphasis on sustainable agriculture, trade, and 
+         marketing systems. During my doctoral studies at <span className="font-bold text-indigo-800">Fujian Agriculture 
+         and Forestry University, China,</span> I explored the integration of economic 
+         policies with agricultural practices to enhance food security and sustainability.
+          Later, during my Post-Doctoral research at <span className="font-bold text-indigo-800">Shenzhen University, China,</span> I expanded
+           my expertise to include management sciences, digital transformation, and Industry 
+           4.0 & 5.0 technologies.
           </p>
 
           <p>
-            With 55+ impact factor publications and over 1400 citations, 
-            my research focuses on Industry 4.0 & 5.0 technologies, the 
-            digital economy, circular economy, and agricultural sustainability. 
-            I have led national and international research projects, including 
-            collaborations funded by the China Science Foundation and Punjab 
-            Agricultural Research Board.
+           I have successfully executed <span className="font-bold text-indigo-800">national and international research projects </span>
+           in areas such as circular economy, supply chain optimization, and sustainable 
+           performance of agri-food systems. These collaborations include work with<span className="font-bold text-indigo-800">partners
+            in China </span> and Pakistan, where I have applied innovative research models 
+            <span className="font-bold text-indigo-800">(PLS-SEM, ANN, and SEM-IPMA)</span> to solve real-world challenges. 
+            My research has been recognized both academically and practically, 
+            and I have received competitive research grants to support projects 
+            in agricultural development and digital transformation.
           </p>
 
           <p>
-            Alongside research, I actively mentor Ph.D. and M.Phil. 
-            scholars and have organized numerous international conferences, 
-            workshops, and training programs, fostering strong academia-industry 
-            linkages. My work aims to bridge technology, policy, and sustainable 
-            development for impactful real-world solutions.</p>
+            In addition to my academic work, I have been actively involved in training programs, 
+            international conferences, and workshops, where I served as a lead trainer and coordinator.
+             I have a strong commitment to mentoring M.Phil. and Ph.D. scholars, 
+             fostering international collaborations, and creating knowledge-sharing 
+             platforms that bridge academia and industry.</p>
+
+              <p>
+            With <span className="font-bold text-indigo-800">55+ publications, 1400+ citations,</span>  and an h-index of 10, 
+            my contributions to the field continue to grow. I aim to 
+            leverage geospatial technologies, advanced analytics, and 
+            economic models to support sustainable development, enhance 
+            agricultural productivity, and guide policy formulation.</p>
 
           <h3 className="text-xl font-semibold mt-6">Contact Details</h3>
           <ul className="list-disc list-inside space-y-1">
